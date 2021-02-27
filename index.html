@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="STYLE/style.css">
     <title>Home</title>
 </head>
-<body>
+<body id="body">
     <div class="wrapper">
           <a class="buttonUp" href="#">
         <img src="IMG/array.png" alt="" class="UpImage">
@@ -57,16 +57,19 @@
 
     </div>
     <script>
+        var body = document.getElementById("body")
         var ctitle = document.getElementById("ctitle")
         var content__title = document.getElementById("content__title")
         var video = document.getElementById("mainvideo")
         var ctxt = document.getElementById("ctxt")
         var answer = prompt("Хочешь пасхалку?")
         if ((answer == "да") || (answer == "yes")){
-            mainvideo.innerHTML = "<iframe width="1366" height="578" src="https:\\www.youtube.com\embed\1YS6js8uzZE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>"
+            mainvideo.innerHTML = '<iframe width="1366" height="578" src="https://www.youtube.com/embed/1YS6js8uzZE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="videonew1"></iframe>'
             ctxt.innerHTML="Есть у них условный знак, я узнал случайно. Нудно анти сделать фак, будто эо тайна. Они передают нам свой пламенный fuck you, а кто такие fucking slaves большой большой секрет."
             content__title.innerHTML= "Топ-1 причин, говорящих о том, что Кирилл Сабитов педофил"
             ctitle.innerHTML= "1. Он дрочит на фиксиков"
+            body.style.backgroundColor = "black"
+            body.style.backgroundImage = 'url("IMG/f.jpg")'
         }
     </script>
 </body>
