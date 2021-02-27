@@ -60,6 +60,7 @@
 
     </div>
     <script>
+        var audio = new Audio('Audio/1.mp3')
         var pacha = document.getElementById("pacha")
         var pach = document.getElementById("pach")
         var body = document.getElementById("body")
@@ -76,7 +77,7 @@
             body.style.backgroundImage = 'url("IMG/f.jpg")'
             pach.src = 'IMG/ghp.png'
             pacha.setAttribute('onclick','normal()')
-            
+            audio.play()
         }
         function normal(){
             mainvideo.innerHTML = '<iframe width="400" height="225" src="https://www.youtube.com/embed/_RTIlVXKfyY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="videonew1" id="video"></iframe>'
