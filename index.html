@@ -33,14 +33,14 @@
             <div class="container">
                 <div class="content__flex">
                 <div class="new">
-                <div class="content__title">
+                <div class="content__title" id="content__title">
                     <h1>Топ-1 причин, говорящих о том, что Кирилл Сабитов гей</h1>
                 </div>
-                <iframe width="400" height="225" src="https://www.youtube.com/embed/_RTIlVXKfyY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="videonew1"></iframe>
+                <iframe width="400" height="225" src="https://www.youtube.com/embed/_RTIlVXKfyY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="videonew1" id="video"></iframe>
                 <div class="content__txt">
-                    <div class="ctxt__title">1. Он дрочил на это видео
+                    <div class="ctxt__title" id="ctitle">1. Он дрочил на это видео
                     </div>
-                    <div class="ctxt">
+                    <div class="ctxt" id="ctxt">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur odit porro ad veniam minima enim maiores, eos id sit pariatur dicta tempora ducimus, nostrum harum quae. Magni, doloribus error. Illum eaque maxime unde placeat, ut, ab quia explicabo, minima nihil ducimus et. Suscipit facilis praesentium vero quam consectetur, voluptas deleniti saepe debitis. Ex eligendi, est neque recusandae ducimus at eaque vero incidunt dicta eos ipsum corporis, odit rerum cupiditate non doloribus ipsam similique harum, voluptas quis doloremque modi. Repellat incidunt, adipisci commodi ipsum tempora beatae ducimus reprehenderit ut debitis ipsa, accusamus minus voluptates et explicabo sed. Temporibus porro explicabo sapiente.
                     </div>
                 </div>
@@ -56,8 +56,17 @@
 
     </div>
     <script>
-        alert("Ты пидор")
-        //дада именно ты
+        var ctitle = document.getElementById("ctitle")
+        var content__title = document.getElementById("content__title")
+        var video = document.getElementById("video")
+        var ctxt = document.getElementById("ctxt")
+        var answer = prompt("Хочешь пасхалку?")
+        if ((answer == "да") || (answer == "yes")){
+            video.src = "https://www.youtube.com/embed/1YS6js8uzZE"
+            ctxt.innerHTML="Есть у них условный знак, я узнал случайно. Нудно анти сделать фак, будто эо тайна. Они передают нам свой пламенный fuck you, а кто такие fucking slaves большой большой секрет."
+            content__title.innerHTML= "Топ-1 причин, говорящих о том, что Кирилл Сабитов педофил"
+            ctitle.innerHTML= "1. Он дрочит на фиксиков"
+        }
     </script>
 </body>
 </html>
