@@ -133,7 +133,7 @@ body{
     border: 5px solid black;
 }
 .pr{
-    background-color: #292929;
+    background-color: #383838;
     border: 3px solid black;
     text-align: center;
     display: flex;
@@ -196,11 +196,7 @@ body{
 .beforefooter{
     flex-grow: 1;
 }
-@media (min-width: 481px){
-    .container{
-        max-width: calc(100% / 100 * 95);
-    }
-}
+
 @media (min-width: 769px){
     .container{
     max-width: 765px;
