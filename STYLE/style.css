@@ -74,15 +74,18 @@ body{
 
     margin-top: 20px;
 }
-
+.content__photo{
+    width: 853px;
+}
 .ctxt__title{
     font-weight: bold;
     font-size: 50px;
+    margin-top: 20px;
 }
 .ctxt{
     font-size: 30px;
     font-weight: bold;
-    margin: 40px 10px;
+    margin: 20px 10px;
 }
 .buttonUp{
     margin-left: 85vw;
