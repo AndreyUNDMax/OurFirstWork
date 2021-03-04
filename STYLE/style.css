@@ -279,7 +279,7 @@ body{
     margin: 12px auto;
     }
     .headerButton{
-        font-size: 26px;
+        font-size: 23px;
     }
 }
 @media (min-width: 1025px){
@@ -310,6 +310,6 @@ body{
     font-size: 30px;
 }
     .headerButton{
-        font-size: 28px;
+        font-size: 25px;
     }
 }
