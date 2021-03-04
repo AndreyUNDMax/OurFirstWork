@@ -278,6 +278,9 @@ body{
         max-width: 330px;
     margin: 12px auto;
     }
+    .headerButton{
+        font-size: 26px;
+    }
 }
 @media (min-width: 1025px){
     .container{
@@ -306,4 +309,7 @@ body{
     .pr__price{
     font-size: 30px;
 }
+    .headerButton{
+        font-size: 28px;
+    }
 }
