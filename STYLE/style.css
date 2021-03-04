@@ -107,6 +107,9 @@ body{
     margin-left: 27px;
     margin-top: 25px;
 }
+.pr__title{
+    
+}
 .trng {
   width: 100px;
     height: 50px;
@@ -232,6 +235,7 @@ body{
 }
 .QR{
     width: 100px;
+    cursor: none;
 }
 
 .neticon{
