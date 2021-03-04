@@ -76,7 +76,7 @@ body{
     margin-top: 20px;
 }
 .content__photo{
-    width: 853px;
+    width: 100%;
 }
 .ctxt__title{
     font-weight: bold;
