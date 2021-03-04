@@ -1,4 +1,4 @@
-        var audio = new Audio('Audio/1.mp3')
+        var audio = new Audio("https://raw.githubusercontent.com/AndreyUNDMax/OurFirstWork/master/AUDIO/1.mp3")
         var pacha = document.getElementById("pacha")
         var pach = document.getElementById("pach")
         var body = document.getElementById("body")

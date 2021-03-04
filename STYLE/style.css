@@ -66,6 +66,7 @@ body{
     margin-top: 20px;
     padding: 20px 40px;
     background-color: #383838;
+    border-radius: 35px;
 }
 
 .content__title{
