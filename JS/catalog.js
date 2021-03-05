@@ -1,5 +1,15 @@
+var k = 0
+var zheka = new Array("IMG/fTUBberUSiQ.jpg","IMG/e_659U-01uQ.jpg")
 var id = ""
 var k = 0
+function greycross(){
+ document.getElementById("crossline1").style.backgroundColor = 'grey'
+    document.getElementById("crossline2").style.backgroundColor = 'grey'
+}
+function simplecross(){
+    document.getElementById("crossline1").style.backgroundColor = 'white'
+    document.getElementById("crossline2").style.backgroundColor = 'white'
+}
 function unbuyable(id){
     switch(k){
         case 0:
@@ -27,4 +37,13 @@ function popup(){
 function nopopup(){
     document.getElementById('products__popup').style.display = 'none'
     document.getElementById("body").style.overflow = 'visible'
+}
+function popupphotos(){
+    k++
+    if (k > (zheka.length-1)){
+        k= 0;
+    }
+    document.getElementById("product__photos").src = zheka[k]
+    
+    
 }

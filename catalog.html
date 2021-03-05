@@ -17,11 +17,12 @@
 
 <body id="body">
    <div class="products__popup" id="products__popup">
-       <div class="container"><div class="cross" onclick="nopopup()"><div class="crossline" style="transform: rotate(45deg);"></div><div class="crossline" style="transform: rotate(315deg); margin-top: -2px;"></div></div>
+       <div class="container"><div class="cross" onclick="nopopup()" onmouseover="greycross()" onmouseout="simplecross()"><div class="crossline" id="crossline1" style="transform: rotate(45deg);"></div><div class="crossline" id="crossline2" style="transform: rotate(315deg); margin-top: -2px;"></div></div>
            <div class="pr__popup__row">
-               <div class="product__photos">
-                   <img src="IMG/fTUBberUSiQ.jpg" alt="" style="width: 100%; height: 100%">
+               <div class="product__photos" >
+                   <img src="IMG/fTUBberUSiQ.jpg" alt="" style="width: 100%; height: 100%" id="product__photos" onclick="popupphotos()">
                </div>
+               <div class="product__info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis temporibus natus, commodi atque aspernatur, voluptatum sed voluptate qui blanditiis dolor sunt nemo voluptatem molestiae accusamus, neque tenetur consectetur nostrum deleniti cum odio fugit. Facilis fugiat voluptate tempora beatae accusantium hic doloremque consectetur et ratione, esse, optio reprehenderit tempore nemo nihil. Corrupti praesentium vero aperiam itaque provident eos, consequatur minus expedita fuga velit iusto repellendus nostrum, accusantium doloremque consectetur, facilis non cumque temporibus eveniet rerum pariatur qui dolor officiis perspiciatis. Pariatur doloremque, enim nihil magnam iusto sint molestiae molestias nulla explicabo, itaque ut, blanditiis amet in error officiis consequatur et voluptate.</div>
            </div>
        </div>
    </div>
