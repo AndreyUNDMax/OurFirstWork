@@ -20,6 +20,7 @@ body{
 }
 .container{
     margin: 0 auto;
+    
 }
 .header{
     background-color: rgba(39,105,107) ;
@@ -95,6 +96,7 @@ body{
     width: 100px;
     position: fixed;
     border-radius: 60px;
+    z-index: 1;
 }
 .UpImage{
     height: 100%;
@@ -133,6 +135,8 @@ body{
 .pr{
     background-color: #383838;
     border: 3px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -259,6 +263,46 @@ body{
 .lcontacts{
     margin-top: 10px;
     font-size: 27px;
+}
+.vipproducts{
+    background-color: #242729;
+    padding-top: 10px;
+    border-radius: 40px;
+}
+.simpleproducts{
+    padding-top: 10px;
+}
+.products__popup{
+    position: fixed;
+    overflow: hidden;
+    
+    width: 100%;
+    padding-top: 50px;
+    z-index: 2;
+    height: 100%;
+    background-color: rgba(255,255,255,0.1);
+    display: none;
+}
+.pr__popup__row{
+    background-color: #242729;
+    height: 100%;
+    color:aliceblue;
+    border-radius: 60px;
+    padding: 40px;
+}
+.products__popup .container{
+    height: 80%;
+    
+}
+.crossline{
+    width: 30px;
+    height: 2px;
+    background-color: white;
+}
+.cross{
+    position: absolute;
+    margin-left: 80%;
+    
 }
 @media (min-width: 769px){
     .container{

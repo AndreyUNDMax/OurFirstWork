@@ -20,3 +20,11 @@ function unbuyable(id){
     }
     k++
 }
+function popup(){
+    document.getElementById('products__popup').style.display = 'inline'
+    document.getElementById("body").style.overflow = 'hidden'
+}
+function nopopup(){
+    document.getElementById('products__popup').style.display = 'none'
+    document.getElementById("body").style.overflow = 'visible'
+}
