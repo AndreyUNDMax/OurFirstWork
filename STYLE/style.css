@@ -328,6 +328,10 @@ body{
 .header{
     border-bottom: 1px solid white;
 }
+.vipproducts{
+    
+    box-shadow: 10px 8px 5px rgba(0,0,0,0.7);
+}
 @media (min-width: 769px){
     .container{
     max-width: 765px;
