@@ -351,6 +351,9 @@ body{
         max-width: 330px;
     margin: 12px auto;
     }
+    .pr__txt{
+        font-size: 26px;
+    }
     .headerButton{
         font-size: 23px;
     }
