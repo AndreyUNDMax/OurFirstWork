@@ -317,6 +317,7 @@ body{
     margin-right: 20px;
     width: 600px;
 }
+
 @media (min-width: 769px){
     .container{
     max-width: 765px;
@@ -326,6 +327,13 @@ body{
     width: 690px;
     height: 388px;
     margin: 40px auto;
+}
+    .ctxt__photo{
+       margin-top: 40px;
+    width: 690px;
+    height: 388px;
+    margin: 40px auto; 
+    
 }
     .pr__photo{
         max-width: 300px;
@@ -344,6 +352,10 @@ body{
         
     }
     .videonew1{
+        width: 940px;
+        height: 528.75px;
+    }
+    .ctxt__photo{
         width: 940px;
         height: 528.75px;
     }
