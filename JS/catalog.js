@@ -50,6 +50,6 @@ function popupphotos(){
 function klik(){
     document.getElementById("VIN").innerHTML = "Короче Настя"
 }
-function PAREN(){
+function PAREN1(){
     document.getElementById("PAREN").innerHTML = "Твой бывший парень"
 }
