@@ -44,6 +44,9 @@ function popupphotos(){
         k= 0;
     }
     document.getElementById("product__photos").src = zheka[k]
-    
-    
+
+
+}
+function klik(){
+    document.getElementById("VIN").innerHTML = "Короче Настя"
 }
