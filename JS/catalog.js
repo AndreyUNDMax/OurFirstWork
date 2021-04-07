@@ -1,3 +1,4 @@
+var z = 0
 var k = 0
 var zheka = new Array("IMG/fTUBberUSiQ.jpg","IMG/e_659U-01uQ.jpg")
 var id = ""
@@ -52,4 +53,26 @@ function klik(){
 }
 function PAREN1(){
     document.getElementById("PAREN").innerHTML = "Твой бывший парень"
+}
+function UL() {
+ switch(z){
+     case 0:
+     case 1:
+     case 2:
+     case 3:
+     case 4:
+        break;
+     case 5:
+         document.getElementById("ULIA").innerHTML = "Андрей" ;
+         break;
+     case 6:
+     case 7:
+     case 8:
+     case 9:
+         break;
+     case 10:
+          document.getElementById("ULIA").innerHTML = "Любовь Андрея" ;
+         break;
+ }
+z++
 }
