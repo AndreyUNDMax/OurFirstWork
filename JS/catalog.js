@@ -63,7 +63,7 @@ function UL() {
      case 4:
         break;
      case 5:
-         document.getElementById("ULIA").innerHTML = "Андрей" ;
+         document.getElementById("ULIA").innerHTML = "Андрея" ;
          break;
      case 6:
      case 7:
@@ -71,7 +71,15 @@ function UL() {
      case 9:
          break;
      case 10:
-          document.getElementById("ULIA").innerHTML = "Любовь Андрея" ;
+          document.getElementById("ULIA").innerHTML = "Любовь Максима" ;
+         break;
+     case 11:
+     case 12:
+     case 13:
+     case 14:
+         break;
+     case 15:
+          document.getElementById("ULIA").innerHTML = "Больше не девствственница" ;
          break;
  }
 z++
