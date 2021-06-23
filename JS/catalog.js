@@ -84,3 +84,6 @@ function UL() {
  }
 z++
 }
+function MaxLox(){
+    document.getElementById("MaxLox").innerHTML = "Макс обыкновенный"
+}
